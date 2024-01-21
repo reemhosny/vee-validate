@@ -13,7 +13,8 @@ function onSubmit(values) {
 </script>
 
 <template>
-  <Form :validation-schema="schema" @submit="onSubmit" class="form">
+  <h2>Basic Form</h2>
+  <Form :validation-schema="schema" @submit="onSubmit" class="form flex">
     <Field name="email" type="email" />
     <ErrorMessage name="email" />
 
@@ -24,12 +25,4 @@ function onSubmit(values) {
   </Form>
 </template>
 
-<style>
-.form {
-  gap: 14px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-</style>
+<style></style>
