@@ -3,6 +3,9 @@
     <aside>
       <router-link to="/" class="link">Home</router-link>
       <router-link to="/basic-form" class="link">Basic Form</router-link>
+      <router-link to="/dynamic-form-generator" class="link"
+        >Dynamic Form Generator</router-link
+      >
     </aside>
 
     <main class="flex">

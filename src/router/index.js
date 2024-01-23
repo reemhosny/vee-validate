@@ -11,6 +11,11 @@ const routes = [
     name: 'basic-form',
     component: () => import('../views/BasicForm.vue'),
   },
+  {
+    path: '/dynamic-form-generator',
+    name: 'dynamic-form-generator',
+    component: () => import('../views/DynamicFormGenerator.vue'),
+  },
 ];
 
 const router = createRouter({

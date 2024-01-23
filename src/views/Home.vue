@@ -1,3 +1,3 @@
 <template>
-  <h1>This is a notes and examples of Vee-Validate</h1>
+  <h1>This document contains notes and examples for Vee-Validate</h1>
 </template>
