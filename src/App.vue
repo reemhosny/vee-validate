@@ -6,6 +6,18 @@
       <router-link to="/dynamic-form-generator" class="link"
         >Dynamic Form Generator</router-link
       >
+
+      <router-link to="/handle-submit" class="link">handleSubmit </router-link>
+      <router-link to="/submit-form" class="link">submitForm </router-link>
+      <router-link to="/validate" class="link"
+        >Submission Progress - isSubmitting
+      </router-link>
+      <router-link to="/invalid-submissions" class="link"
+        >Invalid Submissions
+      </router-link>
+      <router-link to="/initial-values" class="link"
+        >Initial Values
+      </router-link>
     </aside>
 
     <main class="flex">
